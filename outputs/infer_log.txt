@@ -1,0 +1,35 @@
+BASE=C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay
+ART=C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\src\artifacts
+Buscando modelos:
+  ratings NB: C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\src\artifacts\nb_tfidf_google_ratings.joblib -> True
+  ratings MLP: C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\src\artifacts\mlp_tfidf_google_ratings.joblib -> True
+  pseudo  NB: C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\src\artifacts\nb_tfidf_pseudogold_bert.joblib -> False
+  pseudo  MLP: C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\src\artifacts\mlp_tfidf_pseudogold_bert.joblib -> False
+Usando modelos: entrenados con ratings
+BASE=C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay
+ART=C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\src\artifacts
+Buscando modelos:
+  ratings NB: C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\src\artifacts\nb_tfidf_google_ratings.joblib -> True
+  ratings MLP: C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\src\artifacts\mlp_tfidf_google_ratings.joblib -> True
+  pseudo  NB: C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\src\artifacts\nb_tfidf_pseudogold_bert.joblib -> False
+  pseudo  MLP: C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\src\artifacts\mlp_tfidf_pseudogold_bert.joblib -> False
+Usando modelos: entrenados con ratings
+Exportado: C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\outputs\dataset_anotado_con_nb_mlp_bert.xlsx
+BASE=C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay
+ART=C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\src\artifacts
+Buscando modelos:
+  ratings NB: C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\src\artifacts\nb_tfidf_google_ratings.joblib -> True
+  ratings MLP: C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\src\artifacts\mlp_tfidf_google_ratings.joblib -> True
+  pseudo  NB: C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\src\artifacts\nb_tfidf_pseudogold_bert.joblib -> True
+  pseudo  MLP: C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\src\artifacts\mlp_tfidf_pseudogold_bert.joblib -> True
+Usando modelos: pseudo-gold BERT
+Exportado: C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\outputs\dataset_anotado_con_nb_mlp_bert.xlsx
+BASE=C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay
+ART=C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\src\artifacts
+Buscando modelos:
+  ratings NB: C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\src\artifacts\nb_tfidf_google_ratings.joblib -> True
+  ratings MLP: C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\src\artifacts\mlp_tfidf_google_ratings.joblib -> True
+  pseudo  NB: C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\src\artifacts\nb_tfidf_pseudogold_bert.joblib -> True
+  pseudo  MLP: C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\src\artifacts\mlp_tfidf_pseudogold_bert.joblib -> True
+Usando modelos: pseudo-gold BERT
+Exportado: C:\Users\NEO\Documents\fpune\tesis\tfg_sentimientos_paraguay\outputs\dataset_anotado_con_nb_mlp_bert.xlsx

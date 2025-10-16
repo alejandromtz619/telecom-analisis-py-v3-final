@@ -1,0 +1,47 @@
+# Entorno / Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.cache/
+.ipynb_checkpoints/
+
+# Sistemas / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Variables de entorno
+.env
+*.env
+
+# Datos y salidas pesadas (ajustá según tu necesidad)
+data/*.csv
+data/*.xlsx
+data/*.parquet
+data/*.jsonl
+data/*.zip
+data/*.gz
+outputs/*.csv
+outputs/*.xlsx
+outputs/*.parquet
+outputs/*.zip
+outputs/*.gz
+
+# Modelos y artefactos grandes
+src/artifacts/*.joblib
+src/artifacts/*.pkl
+src/artifacts/*.pt
+src/artifacts/*.bin
+src/artifacts/*.h5
+src/artifacts/*.keras
+src/artifacts/*.onnx
+
+# Logs / temporales
+logs/
+*.log
+tmp/

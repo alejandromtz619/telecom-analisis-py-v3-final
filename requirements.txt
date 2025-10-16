@@ -1,0 +1,7 @@
+pandas
+numpy
+scikit-learn
+openpyxl
+matplotlib
+transformers>=4.44.2
+torch>=2.3.1
