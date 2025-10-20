@@ -51,6 +51,7 @@ Si ya tenés la carpeta local, podés saltar este paso. Si no:
 ```bash
 git clone https://github.com/<tu-usuario>/tfg_sentimientos_paraguay.git
 cd tfg_sentimientos_paraguay
+```
 
 ### 2) Crear y activar entorno virtual
 
