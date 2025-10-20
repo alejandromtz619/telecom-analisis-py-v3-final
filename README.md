@@ -96,7 +96,7 @@ holdout_predicciones_desde_rating_google.xlsx
 
 Y artefactos/actualizaciones en src/artifacts/ (según el flujo de tu script).
 
-B) Inferencia sobre datasets completos (Google/Twitter/Reddit)
+#### B) Inferencia sobre datasets completos (Google/Twitter/Reddit)
 python -m src.infer_full_with_bert
 
 
@@ -105,14 +105,14 @@ Salida principal:
 outputs/dataset_anotado_con_modelos_entrenados.xlsx
 (incluye columnas sentimiento_bert, sentimiento_mlp, sentimiento_nb)
 
-C) Reentrenar NB/MLP desde salidas de BERT (opcional)
+#### C) Reentrenar NB/MLP desde salidas de BERT (opcional)
 python -m src.retrain_nb_mlp_from_bert
 
-D) Consolidar métricas finales y reportes
+#### D) Consolidar métricas finales y reportes
 python -m src.evaluate_final_metrics
 
 
-Salidas esperadas:
+#### Salidas esperadas:
 
 outputs/datasets_metricas.xlsx
 
@@ -133,7 +133,7 @@ Podés dejar un muestra (ej. data/sample_rating_google.xlsx) y documentación de
 
 Si querés versionar binarios grandes, evaluá Git LFS.
 
-Solución de problemas comunes
+#### Solución de problemas comunes
 
 -m : no se reconoce en PowerShell → Estás intentando ejecutar -m pip sin python. Usá:
 python -m pip install -U pip
@@ -142,7 +142,7 @@ Permisos al crear .venv → Cerrá procesos que estén usando .venv, borrá .ven
 
 ImportError/MemoryError → Confirmá versiones de torch/transformers, memoria disponible y usa batch sizes más pequeños si tu script lo permite.
 
-Créditos / contexto
+### Créditos / contexto
 
 TFG FPUNE – Percepción sobre servicios de conectividad doméstica y móvil en Paraguay con lenguaje natural y aprendizaje automático (2020–2024).
 
