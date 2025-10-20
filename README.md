@@ -79,12 +79,12 @@ pip install -r requirements.txt
 (Opcional) PyTorch con CUDA:
 Si querés GPU, instalá la build de torch según tu versión de CUDA desde la guía oficial de PyTorch. Luego volvé a pip install -r requirements.txt si hace falta.
 
-Uso
+### 3) Uso
 
 Todos los scripts pueden ejecutarse con -h/--help para ver opciones (si están disponibles).
 Por defecto, usan las rutas de data/ y escriben salidas en outputs/.
 
-A) Entrenamiento + evaluación (BERT, NB y MLP)
+#### A) Entrenamiento + evaluación (BERT, NB y MLP)
 python -m src.train_eval_with_bert
 
 
