@@ -119,7 +119,7 @@ outputs/datasets_metricas.xlsx
 outputs/metricas_finales.xlsx
 (y/o archivos .txt con precision/recall/F1 por modelo si así está implementado)
 
-E) Reglas por aspecto (opcional)
+#### E) Reglas por aspecto (opcional)
 
 Si usás filtrado/agrupación temática:
 
