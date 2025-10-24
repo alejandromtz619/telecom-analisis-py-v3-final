@@ -7,8 +7,9 @@ def normalize_text(s: str) -> str:
     if not isinstance(s, str):
         return ""
     s = s.strip()
-    s = re.sub(r"\s+", " ", s)
-    return s
+    s = re.sub(r"\s+", " ", s)  # Reemplaza múltiples espacios por uno solo
+    return s.lower()  # Convierte el texto a minúsculas
+
 
 def looks_out_of_context(s: str) -> bool:
     if not isinstance(s, str) or not s.strip():

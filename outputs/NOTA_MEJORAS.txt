@@ -1,4 +1,0 @@
-- Empresas: mejor cobertura de @handles, hashtags y Vox->Copaco.
-- NB/MLP: TF–IDF con stopwords ES, bigramas; MLP con early_stopping.
-- Gold automático desde GoogleMaps si existe Rating/Estrellas (1–2 neg, 3 neu, 4–5 pos).
-- Métricas (F1/precision/recall y matrices) se calculan donde exista 'sentimiento_gold'.
